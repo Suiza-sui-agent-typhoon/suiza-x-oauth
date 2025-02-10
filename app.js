@@ -27,7 +27,7 @@ app.use(passport.session());
 const callbackURL =
   process.env.NODE_ENV === "production"
     ? "https://suiza-x-oauth-production.up.railway.app/auth/twitter/callback"
-    : "http://localhost:5173/auth/twitter/callback";
+    : "http://localhost:5173/launch-your-agent";
 
 const TWITTER_REDIRECT_URL =
   process.env.TWITTER_REDIRECT_URL || "http://localhost:5173";
